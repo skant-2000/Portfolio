@@ -1,0 +1,39 @@
+.home {
+    height: 100vh;
+    background-color: #082032;
+}
+
+.home > div {
+    position: relative;
+    top: 35%;
+    color: white;
+    font-size: 44px;
+
+    animation-name: home2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes home2 {
+    from {
+        top: -1000px;
+    }
+}
+
+.home button {
+    position: relative;
+    top: 40%;
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #2C394B;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.home button:hover {
+    color: #2C394B;
+    background-color: white;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    height: 50px;
+    background-color: #FF4C29;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #FF4C29;
+}
+
+.navbar > div {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+@media (max-width: 560px) {
+
+    .navbar > div {
+        width: 90%;
+        padding-top: 17px;
+    }
+
+    .navbar > div {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,27 @@
+.contact {
+    position: relative;
+    z-index: 1;
+    padding: 70px 0 50px;
+    background-color: rgb(236, 236, 236);
+}
+
+.contact > div:nth-child(1) {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.contact > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: 100px auto 50px;
+    justify-content: space-between;
+}
+
+.contact > div:nth-child(2) > a > img {
+    width: 35px;
+}
+
+.contact > p {
+    margin: 0;
+}
