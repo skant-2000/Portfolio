@@ -33,6 +33,11 @@
     margin: 0;
 }
 
+.projects > div:nth-child(2) > div > div:nth-child(1) > img {
+    width: 100%;
+    margin-top: 20px;
+}
+
 .projects > div:nth-child(2) > div > div:nth-child(2) > a > button {
     width: 100px;
     height: 30px;

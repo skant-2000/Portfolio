@@ -21,7 +21,7 @@ export default function About() {
                         collaborative projects. Learning from the project was to collaborate
                         with the Team.
                     </p>
-                    <a href="https://drive.google.com/file/d/1tJSs7Q7nAKaW8JLgINpwjdmy_H_vrAUS/view?usp=sharing"><button>Resume</button></a>
+                    <a target="blank" href="https://drive.google.com/file/d/1tJSs7Q7nAKaW8JLgINpwjdmy_H_vrAUS/view?usp=sharing" ><button>Resume</button></a>
                 </div>
                 <div>
                     <div>Skills</div>
