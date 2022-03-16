@@ -10,8 +10,8 @@ export default function Contact() {
     <div className={styles.contact} id="contact">
         <div>CONTACT</div>
         <div>
-            <a href="https://github.com/skant-2000"><img src={github} alt="" /></a>
-            <a href="https://www.linkedin.com/in/suryakant-1085b3171/"><img src={linkedin} alt="" /></a>
+            <a target="blank" href="https://github.com/skant-2000"><img src={github} alt="" /></a>
+            <a target="blank" href="https://www.linkedin.com/in/suryakant-1085b3171/"><img src={linkedin} alt="" /></a>
             <a href="mailto:suryakant2125@outlook.com"><img src={email} alt="" /></a>
         </div>
         <p><MdPlace />Bhopal, Madhya Pradesh, India</p>
